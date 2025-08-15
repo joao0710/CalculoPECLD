@@ -1,0 +1,28 @@
+# Exclui arquivos e pastas do Python
+__pycache__/
+*.py[co]
+*.log
+
+# Ambiente virtual
+venv/
+env/
+
+# Banco de dados
+db.sqlite3
+/data/
+
+# Arquivos e pastas do Django
+# As pastas de arquivos estáticos geradas pelo comando collectstatic
+staticfiles/
+media/
+
+# Chaves e variáveis de ambiente (nunca inclua no controle de versão)
+# Acredita-se que este arquivo contenha dados sensíveis como senhas e API keys
+local_settings.py
+
+# Arquivos do sistema e IDEs
+.DS_Store
+.env
+.venv
+.vscode/
+.idea/
