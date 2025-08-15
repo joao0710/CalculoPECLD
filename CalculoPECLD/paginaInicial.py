@@ -2,7 +2,7 @@ import customtkinter
 
 
 # Configurações da janela
-customtkinter.set_appearance_mode("System")  # "System", "Dark", "Light"
+customtkinter.set_appearance_mode("Dark")  # "System", "Dark", "Light"
 customtkinter.set_default_color_theme("blue")  # "blue", "green", "dark-blue"
 
 
