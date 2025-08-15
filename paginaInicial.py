@@ -85,7 +85,3 @@ class App(customtkinter.CTk):
         print("Usuário deslogado.")
         self.destroy()  # Fecha a janela
 
-
-if __name__ == "__main__":
-    app = App()
-    app.mainloop()

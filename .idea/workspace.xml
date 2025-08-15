@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Scaffolding 2.0">
-      <change afterPath="$PROJECT_DIR$/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginaInicial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Criando página inicial">
+      <change beforePath="$PROJECT_DIR$/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paginaInicial.py" beforeDir="false" afterPath="$PROJECT_DIR$/paginaInicial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755272065685</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Criando página inicial">
+      <option name="closed" value="true" />
+      <created>1755275767590</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755275767590</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +128,7 @@
     <MESSAGE value="Criacao do Projeto Calculo PECLD" />
     <MESSAGE value="Scaffolding" />
     <MESSAGE value="Scaffolding 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scaffolding 2.0" />
+    <MESSAGE value="Criando página inicial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando página inicial" />
   </component>
 </project>

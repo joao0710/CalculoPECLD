@@ -47,7 +47,3 @@ class Login(customtkinter.CTk):
         else:
             print("Usuário ou senha inválidos.")
 
-
-if __name__ == "__main__":
-    app = App()
-    app.mainloop()
