@@ -1,5 +1,6 @@
 import customtkinter
 
+
 # Configurações da janela
 customtkinter.set_appearance_mode("Dark")  # "System", "Dark", "Light"
 customtkinter.set_default_color_theme("dark-blue")  # "blue", "green", "dark-blue"
@@ -46,4 +47,3 @@ class Login(customtkinter.CTk):
             # Você pode adicionar a lógica para abrir uma nova janela aqui
         else:
             print("Usuário ou senha inválidos.")
-

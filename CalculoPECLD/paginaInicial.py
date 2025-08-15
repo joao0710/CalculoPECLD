@@ -1,5 +1,5 @@
 import customtkinter
-import tkinter as tk
+
 
 # Configurações da janela
 customtkinter.set_appearance_mode("System")  # "System", "Dark", "Light"
@@ -84,4 +84,3 @@ class App(customtkinter.CTk):
         # Lógica de logout
         print("Usuário deslogado.")
         self.destroy()  # Fecha a janela
-
