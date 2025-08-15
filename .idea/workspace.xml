@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Documentação do README">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Refatoração" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +18,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="joao0710 &lt;joao0710@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -45,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -61,6 +65,7 @@
       <recent name="C:\Users\Victor\PycharmProjects\CalculoPECLD\.venv" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Victor\PycharmProjects\CalculoPECLD\CalculoPECLD" />
       <recent name="C:\Users\Victor\PycharmProjects\CalculoPECLD\images" />
     </key>
   </component>
@@ -127,7 +132,39 @@
       <option name="project" value="LOCAL" />
       <updated>1755278204127</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Configuração GitIgnore">
+      <option name="closed" value="true" />
+      <created>1755279241192</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1755279241192</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Exclusão da pasta images">
+      <option name="closed" value="true" />
+      <created>1755279328459</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1755279328459</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Exclusão da pasta images">
+      <option name="closed" value="true" />
+      <created>1755279460994</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1755279460994</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Refatoração">
+      <option name="closed" value="true" />
+      <created>1755279474113</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1755279474113</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +184,9 @@
     <MESSAGE value="Scaffolding 2.0" />
     <MESSAGE value="Criando página inicial" />
     <MESSAGE value="Documentação do README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Documentação do README" />
+    <MESSAGE value="Configuração GitIgnore" />
+    <MESSAGE value="Exclusão da pasta images" />
+    <MESSAGE value="Refatoração" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refatoração" />
   </component>
 </project>
