@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Reconfiguração requirements.txt">
-      <change afterPath="$PROJECT_DIR$/.flake8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Refatoração">
+      <change beforePath="$PROJECT_DIR$/CalculoPECLD/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalculoPECLD/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculoPECLD/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalculoPECLD/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculoPECLD/paginaInicial.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalculoPECLD/paginaInicial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +184,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755279777184</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Refatoração">
+      <option name="closed" value="true" />
+      <created>1755280599587</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1755280599587</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Refatoração">
+      <option name="closed" value="true" />
+      <created>1755280774824</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1755280774824</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,9 +222,9 @@
     <MESSAGE value="Documentação do README" />
     <MESSAGE value="Configuração GitIgnore" />
     <MESSAGE value="Exclusão da pasta images" />
-    <MESSAGE value="Refatoração" />
     <MESSAGE value="Configuração requirements.txt" />
     <MESSAGE value="Reconfiguração requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reconfiguração requirements.txt" />
+    <MESSAGE value="Refatoração" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refatoração" />
   </component>
 </project>

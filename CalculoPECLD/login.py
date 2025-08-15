@@ -5,6 +5,7 @@ import customtkinter
 customtkinter.set_appearance_mode("Dark")  # "System", "Dark", "Light"
 customtkinter.set_default_color_theme("dark-blue")  # "blue", "green", "dark-blue"
 
+
 class Login(customtkinter.CTk):
     def __init__(self):
         super().__init__()

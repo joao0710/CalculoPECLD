@@ -1,4 +1,4 @@
-from paginaInicial import *
+from paginaInicial import App
 
 
 app = App()
