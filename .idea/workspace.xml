@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Refatoração">
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Modo Dark configurado">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CalculoPECLD/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalculoPECLD/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculoPECLD/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalculoPECLD/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculoPECLD/paginaInicial.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalculoPECLD/paginaInicial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,9 @@
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.login.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.paginaInicial.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -200,7 +202,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755280774824</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Ajuste ao PEP 8">
+      <option name="closed" value="true" />
+      <created>1755281045385</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1755281045385</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Modo Dark configurado">
+      <option name="closed" value="true" />
+      <created>1755281123157</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1755281123157</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +243,8 @@
     <MESSAGE value="Configuração requirements.txt" />
     <MESSAGE value="Reconfiguração requirements.txt" />
     <MESSAGE value="Refatoração" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatoração" />
+    <MESSAGE value="Ajuste ao PEP 8" />
+    <MESSAGE value="Modo Dark configurado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modo Dark configurado" />
   </component>
 </project>

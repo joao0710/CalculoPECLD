@@ -12,7 +12,7 @@ class Login(customtkinter.CTk):
 
         # Configurações da janela principal
         self.title("Tela de Login")
-        self.geometry("400x300")
+        self.geometry("800x600")
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure((0, 1, 2), weight=1)
 
