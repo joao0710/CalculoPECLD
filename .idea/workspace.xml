@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Distintivo Travis CI">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-    </list>
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Configurado Travis CI" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -224,7 +222,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755284976940</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Configurado Travis CI">
+      <option name="closed" value="true" />
+      <created>1755285309086</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1755285309086</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Configurado Travis CI">
+      <option name="closed" value="true" />
+      <created>1755285326151</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1755285326151</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,6 +266,7 @@
     <MESSAGE value="Ajuste ao PEP 8" />
     <MESSAGE value="Modo Dark configurado" />
     <MESSAGE value="Distintivo Travis CI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Distintivo Travis CI" />
+    <MESSAGE value="Configurado Travis CI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configurado Travis CI" />
   </component>
 </project>
