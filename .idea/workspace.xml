@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Acrescentada cobertura de código">
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Alteração configuração CircleCI">
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -311,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755362533146</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Alteração configuração CircleCI">
+      <option name="closed" value="true" />
+      <created>1755363916516</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1755363916516</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,6 +354,8 @@
     <MESSAGE value="Integração Travis-Pytest" />
     <MESSAGE value="Instalação Pytest-cov" />
     <MESSAGE value="Acrescentada cobertura de código" />
-    <option name="LAST_COMMIT_MESSAGE" value="Acrescentada cobertura de código" />
+    <MESSAGE value="Merge pull request #1 from joao0710/circleci-project-setup&#10;&#10;Add .circleci/config.yml" />
+    <MESSAGE value="Alteração configuração CircleCI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alteração configuração CircleCI" />
   </component>
 </project>
