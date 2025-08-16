@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Instalação pytest">
-      <change afterPath="$PROJECT_DIR$/CalculoPECLD/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalculoPECLD/tests/test_principal.py" afterDir="false" />
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Integração Travis-Pytest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements-dev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements-dev.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755359763508</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Integração Travis-Pytest">
+      <option name="closed" value="true" />
+      <created>1755360540974</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1755360540974</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,6 +327,7 @@
     <MESSAGE value="Configurado Travis CI" />
     <MESSAGE value="Nomeando versão" />
     <MESSAGE value="Instalação pytest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Instalação pytest" />
+    <MESSAGE value="Integração Travis-Pytest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integração Travis-Pytest" />
   </component>
 </project>
