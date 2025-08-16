@@ -52,6 +52,7 @@
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for CalculoPECLD.tests.test_principal.teste_int.executor": "Run",
     "Python tests.Python tests in tests.executor": "Run",
     "Python.login.executor": "Run",
     "Python.main.executor": "Run",
@@ -74,7 +75,22 @@
       <recent name="C:\Users\Victor\PycharmProjects\CalculoPECLD\images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for CalculoPECLD.tests.test_principal.teste_int">
+    <configuration name="Python tests for CalculoPECLD.tests.test_principal.teste_int" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="CalculoPECLD" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;CalculoPECLD.tests.test_principal.teste_int&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="CalculoPECLD" />
       <option name="ENV_FILES" value="" />
@@ -92,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for CalculoPECLD.tests.test_principal.teste_int" />
         <item itemvalue="Python tests.Python tests in tests" />
       </list>
     </recent_temporary>
@@ -335,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755364705475</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Alteração configuração CircleCI">
+      <option name="closed" value="true" />
+      <created>1755369186734</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1755369186734</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
