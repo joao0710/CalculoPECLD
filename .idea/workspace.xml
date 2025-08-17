@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Ajuste heroku">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Criada App base" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -469,7 +465,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755436766327</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Criada App base">
+      <option name="closed" value="true" />
+      <created>1755440362167</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1755440362167</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -484,7 +488,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Configuração GitIgnore" />
     <MESSAGE value="Exclusão da pasta images" />
     <MESSAGE value="Configuração requirements.txt" />
     <MESSAGE value="Reconfiguração requirements.txt" />
@@ -509,6 +512,7 @@
     <MESSAGE value="Configuração Django" />
     <MESSAGE value="Inserção endereço web da aplicação" />
     <MESSAGE value="Ajuste heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste heroku" />
+    <MESSAGE value="Criada App base" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criada App base" />
   </component>
 </project>
