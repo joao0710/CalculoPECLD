@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Configuração Django">
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Inserção endereço web da aplicação">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -451,7 +451,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755396528199</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Inserção endereço web da aplicação">
+      <option name="closed" value="true" />
+      <created>1755435527177</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1755435527177</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -466,7 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Criando página inicial" />
     <MESSAGE value="Documentação do README" />
     <MESSAGE value="Configuração GitIgnore" />
     <MESSAGE value="Exclusão da pasta images" />
@@ -491,6 +498,7 @@
     <MESSAGE value="Ajuste CircleCI" />
     <MESSAGE value="Instalação Django" />
     <MESSAGE value="Configuração Django" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuração Django" />
+    <MESSAGE value="Inserção endereço web da aplicação" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserção endereço web da aplicação" />
   </component>
 </project>
