@@ -15,6 +15,9 @@ db.sqlite3
 # As pastas de arquivos estáticos geradas pelo comando collectstatic
 staticfiles/
 media/
+*.log
+local_settings.py
+db.sqlite3
 
 # Chaves e variáveis de ambiente (nunca inclua no controle de versão)
 # Acredita-se que este arquivo contenha dados sensíveis como senhas e API keys
