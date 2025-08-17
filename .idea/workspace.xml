@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Criada App base">
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Configurada variável DEBUG">
+      <change afterPath="$PROJECT_DIR$/contrib/env-sample" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -486,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755440803331</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Configurada variável DEBUG">
+      <option name="closed" value="true" />
+      <created>1755446102664</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1755446102664</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,7 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exclusão da pasta images" />
     <MESSAGE value="Configuração requirements.txt" />
     <MESSAGE value="Reconfiguração requirements.txt" />
     <MESSAGE value="Refatoração" />
@@ -526,6 +531,7 @@
     <MESSAGE value="Inserção endereço web da aplicação" />
     <MESSAGE value="Ajuste heroku" />
     <MESSAGE value="Criada App base" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criada App base" />
+    <MESSAGE value="Configurada variável DEBUG" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configurada variável DEBUG" />
   </component>
 </project>
