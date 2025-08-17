@@ -36,7 +36,7 @@ jobs:
           # This assumes pytest is installed via the install-package step above
           command:
             pip install pipenv
-            pipenv sync  --dev
+            pipenv sync --dev
             pytest CalculoPECLD
             pytest --cov --cov-branch --cov-report=xml
 
