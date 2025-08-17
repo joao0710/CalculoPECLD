@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Instalação Pipenv">
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Alterado gestor de dependencias para pipenv">
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements-dev.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -370,7 +370,31 @@
       <option name="project" value="LOCAL" />
       <updated>1755370213471</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Instalação Pipenv">
+      <option name="closed" value="true" />
+      <created>1755373844072</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1755373844072</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Alterado gestor de dependencias para pipenv">
+      <option name="closed" value="true" />
+      <created>1755373875674</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1755373875674</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Alterado gestor de dependencias para pipenv">
+      <option name="closed" value="true" />
+      <created>1755373911685</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1755373911685</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -407,6 +431,7 @@
     <MESSAGE value="Merge pull request #1 from joao0710/circleci-project-setup&#10;&#10;Add .circleci/config.yml" />
     <MESSAGE value="Alteração configuração CircleCI" />
     <MESSAGE value="Instalação Pipenv" />
-    <option name="LAST_COMMIT_MESSAGE" value="Instalação Pipenv" />
+    <MESSAGE value="Alterado gestor de dependencias para pipenv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alterado gestor de dependencias para pipenv" />
   </component>
 </project>

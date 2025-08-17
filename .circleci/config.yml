@@ -28,13 +28,16 @@ jobs:
       # Checkout the code as the first step.
       - checkout
       - python/install-packages:
-          pkg-manager: pip
-          # app-dir: ~/project/package-directory/  # If your requirements.txt isn't in the root directory.
-          # pip-dependency-file: test-requirements.txt  # if you have a different name for your requirements file, maybe one that combines your runtime and test requirements.
+          pkg-manager: pipenv
+          app-dir: ~/CalculoPECLD/CalculoPECLD/  # If your requirements.txt isn't in the root directory.
+          ip-dependency-file: Pipfile # if you have a different name for your requirements file, maybe one that combines your runtime and test requirements.
       - run:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
-          command: pytest
+          command:
+            pip install pipenv
+            pipenv sync  --dev
+            pytest CalculoPECLD
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
