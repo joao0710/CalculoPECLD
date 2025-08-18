@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Configuração Database">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-    </list>
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Staticfiles config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -542,7 +537,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755456220179</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Staticfiles config">
+      <option name="closed" value="true" />
+      <created>1755518148199</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1755518148199</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -557,7 +560,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ajuste ao PEP 8" />
     <MESSAGE value="Modo Dark configurado" />
     <MESSAGE value="Distintivo Travis CI" />
     <MESSAGE value="Configurado Travis CI" />
@@ -582,6 +584,7 @@
     <MESSAGE value="Configuração SECRET KEY" />
     <MESSAGE value="Configuração allowed hosts" />
     <MESSAGE value="Configuração Database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuração Database" />
+    <MESSAGE value="Staticfiles config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Staticfiles config" />
   </component>
 </project>

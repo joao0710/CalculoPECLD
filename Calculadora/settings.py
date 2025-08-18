@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'collectfast'
     'django.contrib.staticfiles',
     'Calculadora.base',
 ]
@@ -118,6 +119,9 @@ USE_I18N = True
 USE_TZ = True
 
 
+#DEVELOPMENP ENVIROMENT
+
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
@@ -127,6 +131,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 #configuração de upload de media:
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
+
+#colectfast
+
+COLLECTFAST_ENABLED = False
 
 AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
 
@@ -142,6 +150,9 @@ if AWS_ACCESS_KEY_ID:
     AWS_AUTO_CREATE_BUCKET = False
     AWS_QUERYSTRING_AUTH = False
     AWS_S3_CUSTOM_DOMAIN = None
+
+    COLLECTFAST_ENABLED = True
+
     AWS_DEFAULT_ACL = 'private'
 
     #Statis Assets
