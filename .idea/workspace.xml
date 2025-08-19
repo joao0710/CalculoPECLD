@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Staticfiles config" />
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Collectfast config">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/base/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,14 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755268054746</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Criacao do Projeto Calculo PECLD">
-      <option name="closed" value="true" />
-      <created>1755268234690</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1755268234690</updated>
     </task>
     <task id="LOCAL-00002" summary="Scaffolding">
       <option name="closed" value="true" />
@@ -545,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755518148199</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Collectfast config">
+      <option name="closed" value="true" />
+      <created>1755518614293</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1755518614293</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -560,7 +564,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modo Dark configurado" />
     <MESSAGE value="Distintivo Travis CI" />
     <MESSAGE value="Configurado Travis CI" />
     <MESSAGE value="Nomeando versão" />
@@ -585,6 +588,7 @@
     <MESSAGE value="Configuração allowed hosts" />
     <MESSAGE value="Configuração Database" />
     <MESSAGE value="Staticfiles config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Staticfiles config" />
+    <MESSAGE value="Collectfast config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collectfast config" />
   </component>
 </project>
