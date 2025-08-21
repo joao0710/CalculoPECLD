@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Collectfast config">
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Migrations config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculadora/base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/base/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,14 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755268054746</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Scaffolding">
-      <option name="closed" value="true" />
-      <created>1755271260698</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1755271260698</updated>
     </task>
     <task id="LOCAL-00003" summary="Scaffolding 2.0">
       <option name="closed" value="true" />
@@ -549,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755518614293</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Migrations config">
+      <option name="closed" value="true" />
+      <created>1755605082209</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1755605082209</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -564,7 +564,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Distintivo Travis CI" />
     <MESSAGE value="Configurado Travis CI" />
     <MESSAGE value="Nomeando versão" />
     <MESSAGE value="Instalação pytest" />
@@ -589,6 +588,7 @@
     <MESSAGE value="Configuração Database" />
     <MESSAGE value="Staticfiles config" />
     <MESSAGE value="Collectfast config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collectfast config" />
+    <MESSAGE value="Migrations config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrations config" />
   </component>
 </project>

@@ -218,7 +218,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     )
     date_joined = models.DateTimeField(_("date joined"), default=timezone.now)
 
-    #objects = UserManager()
+    objects = UserManager()
 
     EMAIL_FIELD = "email"
     USERNAME_FIELD = "email"
