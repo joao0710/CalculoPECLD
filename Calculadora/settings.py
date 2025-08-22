@@ -120,7 +120,7 @@ USE_I18N = True
 
 USE_TZ = True
 
-
+COLLECTFAST_STRATEGY = os.environ.get('COLLECTFAST_STRATEGY', 'collectfast.strategies.aws.AWSS3Strategy')
 #DEVELOPMENP ENVIROMENT
 
 
