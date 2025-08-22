@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'collectfast',
     'django.contrib.staticfiles',
     'Calculadora.base',
 ]
@@ -120,14 +119,6 @@ USE_I18N = True
 
 USE_TZ = True
 
-COLLECTFAST_STRATEGY = 'collectfast.base.strategies.aws.AWSS3Strategy'
-
-# Configurações do Collectfast
-if 'COLLECTFAST_STRATEGY' in os.environ:
-    COLLECTFAST_STRATEGY = os.environ.get('COLLECTFAST_STRATEGY')
-else:
-    # Se a variável de ambiente não estiver definida, use o padrão
-    COLLECTFAST_STRATEGY = 'collectfast.base.strategies.aws.AWSS3Strategy'
 
 
 #DEVELOPMENP ENVIROMENT
@@ -161,8 +152,6 @@ if AWS_ACCESS_KEY_ID:
     AWS_AUTO_CREATE_BUCKET = False
     AWS_QUERYSTRING_AUTH = False
     AWS_S3_CUSTOM_DOMAIN = None
-
-    COLLECTFAST_ENABLED = True
 
     AWS_DEFAULT_ACL = 'private'
 
