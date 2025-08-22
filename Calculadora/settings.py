@@ -120,7 +120,16 @@ USE_I18N = True
 
 USE_TZ = True
 
-COLLECTFAST_STRATEGY = os.environ.get('COLLECTFAST_STRATEGY', 'collectfast.strategies.aws.AWSS3Strategy')
+COLLECTFAST_STRATEGY = 'collectfast.strategies.aws.AWSS3Strategy'
+
+# Configurações do Collectfast
+if 'COLLECTFAST_STRATEGY' in os.environ:
+    COLLECTFAST_STRATEGY = os.environ.get('COLLECTFAST_STRATEGY')
+else:
+    # Se a variável de ambiente não estiver definida, use o padrão
+    COLLECTFAST_STRATEGY = 'collectfast.strategies.aws.AWSS3Strategy'
+
+
 #DEVELOPMENP ENVIROMENT
 
 
