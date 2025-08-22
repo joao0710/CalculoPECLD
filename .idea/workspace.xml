@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Heroku migrations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,22 +154,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755268054746</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Criando página inicial">
-      <option name="closed" value="true" />
-      <created>1755275767590</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1755275767590</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Criando página inicial">
-      <option name="closed" value="true" />
-      <created>1755275923122</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1755275923122</updated>
     </task>
     <task id="LOCAL-00006" summary="Documentação do README">
       <option name="closed" value="true" />
@@ -548,7 +531,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755819978282</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Heroku migrations">
+      <option name="closed" value="true" />
+      <created>1755821430662</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1755821430662</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Heroku migrations">
+      <option name="closed" value="true" />
+      <created>1755821654603</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1755821654603</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
