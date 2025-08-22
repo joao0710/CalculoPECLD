@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Heroku migrations" />
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Collectfast">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,30 +154,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755268054746</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Exclusão da pasta images">
-      <option name="closed" value="true" />
-      <created>1755279460994</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1755279460994</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Refatoração">
-      <option name="closed" value="true" />
-      <created>1755279474113</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1755279474113</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Configuração requirements.txt">
-      <option name="closed" value="true" />
-      <created>1755279615669</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1755279615669</updated>
     </task>
     <task id="LOCAL-00012" summary="Reconfiguração requirements.txt">
       <option name="closed" value="true" />
@@ -545,7 +523,31 @@
       <option name="project" value="LOCAL" />
       <updated>1755823654939</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Heroku migrations">
+      <option name="closed" value="true" />
+      <created>1755823970238</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1755823970238</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Heroku migrations">
+      <option name="closed" value="true" />
+      <created>1755824043862</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1755824043862</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Collectfast">
+      <option name="closed" value="true" />
+      <created>1755824418942</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1755824418942</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -560,7 +562,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Nomeando versão" />
     <MESSAGE value="Instalação pytest" />
     <MESSAGE value="Integração Travis-Pytest" />
     <MESSAGE value="Instalação Pytest-cov" />
@@ -585,6 +586,7 @@
     <MESSAGE value="Collectfast config" />
     <MESSAGE value="Migrations config" />
     <MESSAGE value="Heroku migrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Heroku migrations" />
+    <MESSAGE value="Collectfast" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collectfast" />
   </component>
 </project>

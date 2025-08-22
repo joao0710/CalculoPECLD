@@ -1,2 +1,2 @@
-release: python manage.py migrate base --no-input
+release: python manage.py migrate --no-input
 web: gunicorn Calculadora.wsgi --log-file -
