@@ -129,8 +129,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = 'static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, '/staticfiles')
 
 #configuração de upload de media:
 MEDIA_URL = '/media/'
@@ -145,7 +145,7 @@ AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
 #STORAGE CONFIGURATION S3 AWS
 #________________________________________________________________________
 
-if AWS_ACCESS_KEY_ID:
+if not DEBUG:
     AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY')
     AWS_STORAGE_BUCKET_NAME = config('AWS_STORAGE_BUCKET_NAME')
 

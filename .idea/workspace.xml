@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Migrations">
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="User configurations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/base/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/base/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,14 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755268054746</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Distintivo Travis CI">
-      <option name="closed" value="true" />
-      <created>1755284976940</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1755284976940</updated>
     </task>
     <task id="LOCAL-00018" summary="Configurado Travis CI">
       <option name="closed" value="true" />
@@ -548,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755827421159</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="User configurations">
+      <option name="closed" value="true" />
+      <created>1755863731748</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1755863731748</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -563,7 +564,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Integração Travis-Pytest" />
     <MESSAGE value="Instalação Pytest-cov" />
     <MESSAGE value="Acrescentada cobertura de código" />
     <MESSAGE value="Merge pull request #1 from joao0710/circleci-project-setup&#10;&#10;Add .circleci/config.yml" />
@@ -588,6 +588,7 @@
     <MESSAGE value="Heroku migrations" />
     <MESSAGE value="Collectfast" />
     <MESSAGE value="Migrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Migrations" />
+    <MESSAGE value="User configurations" />
+    <option name="LAST_COMMIT_MESSAGE" value="User configurations" />
   </component>
 </project>
