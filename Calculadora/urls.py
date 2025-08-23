@@ -22,4 +22,5 @@ from Calculadora.base.views import home
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home),
+    #path('stream_response', stream_response)
 ]
