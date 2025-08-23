@@ -5,13 +5,13 @@ from time import sleep
 # Create your views here.
 
 
-def home(request):
-    return HttpResponse("Olá, Django!")
-
-
 #def home(request):
-#    return render(request, 'base/home.html')
-#    #return HttpResponse("Olá Django")
+#    return HttpResponse("Olá, Django!")
+
+
+def home(request):
+    return render(request, 'base/home.html')
+    #return HttpResponse("Olá Django")
 #
 #
 #def stream_response(request):

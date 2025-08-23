@@ -16,6 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from debug_toolbar.toolbar import debug_toolbar_urls
 
 from Calculadora.base.views import home
 
@@ -23,4 +24,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home),
     #path('stream_response', stream_response)
-]
+]+ debug_toolbar_urls()

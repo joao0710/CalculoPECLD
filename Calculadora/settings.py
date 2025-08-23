@@ -34,6 +34,8 @@ AUTH_USER_MODEL = 'base.User'
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 
+INTERNAL_IPS = '127.0.0.1', '0.0.0.0', 'localhost'
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -43,10 +45,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'debug_toolbar',
     'Calculadora.base',
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
