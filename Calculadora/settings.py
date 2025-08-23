@@ -34,7 +34,7 @@ AUTH_USER_MODEL = 'base.User'
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 
-INTERNAL_IPS = '127.0.0.1', '0.0.0.0', 'localhost', 'https://prototipocalculadora-398c639e893d.herokuapp.com/'
+INTERNAL_IPS = '127.0.0.1', '0.0.0.0', 'localhost', 'prototipocalculadora-398c639e893d.herokuapp.com'
 
 # Application definition
 

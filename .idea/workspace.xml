@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Staticfiles configuration">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Configuration Django Debub Tollbar">
       <change beforePath="$PROJECT_DIR$/Calculadora/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,22 +155,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755268054746</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Nomeando versão">
-      <option name="closed" value="true" />
-      <created>1755359054995</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1755359054995</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Instalação pytest">
-      <option name="closed" value="true" />
-      <created>1755359763508</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1755359763508</updated>
     </task>
     <task id="LOCAL-00023" summary="Integração Travis-Pytest">
       <option name="closed" value="true" />
@@ -552,7 +532,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755984341752</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Configuration Django Debub Tollbar">
+      <option name="closed" value="true" />
+      <created>1755985725496</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1755985725496</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Configuration Django Debub Tollbar">
+      <option name="closed" value="true" />
+      <created>1755985846213</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1755985846213</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -567,7 +563,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Acrescentada cobertura de código" />
     <MESSAGE value="Merge pull request #1 from joao0710/circleci-project-setup&#10;&#10;Add .circleci/config.yml" />
     <MESSAGE value="Alteração configuração CircleCI" />
     <MESSAGE value="Instalação Pipenv" />
@@ -592,6 +587,7 @@
     <MESSAGE value="Migrations" />
     <MESSAGE value="User configurations" />
     <MESSAGE value="Staticfiles configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Staticfiles configuration" />
+    <MESSAGE value="Configuration Django Debub Tollbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuration Django Debub Tollbar" />
   </component>
 </project>
