@@ -157,14 +157,6 @@
       <option name="presentableId" value="Default" />
       <updated>1755268054746</updated>
     </task>
-    <task id="LOCAL-00024" summary="Instalação Pytest-cov">
-      <option name="closed" value="true" />
-      <created>1755361652372</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1755361652372</updated>
-    </task>
     <task id="LOCAL-00025" summary="Acrescentada cobertura de código">
       <option name="closed" value="true" />
       <created>1755362533146</created>
@@ -549,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755985951170</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Configuration Django Debub Tollbar">
+      <option name="closed" value="true" />
+      <created>1755986661771</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1755986661771</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
