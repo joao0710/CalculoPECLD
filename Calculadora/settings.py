@@ -166,7 +166,7 @@ if not DEBUG:
     # _____________________________________________________________________
     # Adicione estas linhas para a configuração do S3
     AWS_STORAGE_BUCKET_NAME = config('AWS_STORAGE_BUCKET_NAME')
-    AWS_S3_REGION_NAME = 'us-east-1' # Substitua pela sua região
+    AWS_S3_REGION_NAME = 'sa-east-1' # Substitua pela sua região
     AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/static/'
 
@@ -176,12 +176,12 @@ if not DEBUG:
     # Upload media folder
     # --------------------------------------------------------------------
     # Remova as linhas DEFAULT_S3_PATH e MEDIA_ROOT
-    DEFAULT_FILE_STORAGE = 'storages.backends.s3.S3Storage'
+
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/media/'
 
     INSTALLED_APPS.append('storages')
 
-    INSTALLED_APPS.append('s3_folder_storage')
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
