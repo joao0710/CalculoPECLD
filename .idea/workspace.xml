@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Configuration Django Debub Tollbar">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Configuração s3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,22 +153,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755268054746</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Alterado gestor de dependencias para pipenv">
-      <option name="closed" value="true" />
-      <created>1755373875674</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1755373875674</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Alterado gestor de dependencias para pipenv">
-      <option name="closed" value="true" />
-      <created>1755373911685</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1755373911685</updated>
     </task>
     <task id="LOCAL-00034" summary="Ajustes pipenv">
       <option name="closed" value="true" />
@@ -549,7 +530,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755989953329</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Configuração s3">
+      <option name="closed" value="true" />
+      <created>1756038841830</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1756038841830</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Configuração s3">
+      <option name="closed" value="true" />
+      <created>1756038943125</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1756038943125</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -564,7 +561,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Merge pull request #1 from joao0710/circleci-project-setup&#10;&#10;Add .circleci/config.yml" />
     <MESSAGE value="Alteração configuração CircleCI" />
     <MESSAGE value="Instalação Pipenv" />
     <MESSAGE value="Alterado gestor de dependencias para pipenv" />
@@ -589,6 +585,7 @@
     <MESSAGE value="User configurations" />
     <MESSAGE value="Staticfiles configuration" />
     <MESSAGE value="Configuration Django Debub Tollbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuration Django Debub Tollbar" />
+    <MESSAGE value="Configuração s3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuração s3" />
   </component>
 </project>

@@ -147,7 +147,7 @@ AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
 #________________________________________________________________________
 
 if not DEBUG:
-    INSTALLED_APPS += ('django-storages',)
+    INSTALLED_APPS += ('storages',)
 
     AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY')
     AWS_STORAGE_BUCKET_NAME = config('AWS_STORAGE_BUCKET_NAME')
