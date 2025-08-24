@@ -1,3 +1,8 @@
+Para facilitar, aqui está o arquivo settings.py completo com as alterações que discutimos. A configuração de arquivos estáticos e de mídia foi ajustada para funcionar corretamente em ambientes de desenvolvimento e produção, eliminando os conflitos que estavam causando o problema.
+
+Arquivo settings.py Completo e Corrigido
+Python
+
 """
 Django settings for Calculadora project.
 
@@ -86,46 +91,49 @@ TIME_ZONE = 'America/Sao_Paulo'
 USE_I18N = True
 USE_TZ = True
 
-# Static files (CSS, JavaScript, Images)
-# Configuration for local development
-STATIC_URL = 'static/'
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+# --------------------------------------------------------------------------------------------------------
+# Configuração de arquivos estáticos e de mídia
+# --------------------------------------------------------------------------------------------------------
 
-# Media files
-MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'mediafiles'
-
-# STORAGE CONFIGURATION S3 AWS
-# ________________________________________________________________________
-
-if not DEBUG:
+if DEBUG:
+    # Configuração para ambiente de desenvolvimento local
+    STATIC_URL = 'static/'
+    STATIC_ROOT = BASE_DIR / 'staticfiles'
+    MEDIA_URL = '/media/'
+    MEDIA_ROOT = BASE_DIR / 'mediafiles'
+else:
+    # Configuração para ambiente de produção com AWS S3
     INSTALLED_APPS.append('storages')
 
-    # AWS S3 credentials
+    # Credenciais AWS S3
     AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY')
     AWS_STORAGE_BUCKET_NAME = config('AWS_STORAGE_BUCKET_NAME')
     AWS_S3_REGION_NAME = 'us-east-2'
 
-    # S3 custom domain and URL generation
+    # S3 custom domain e geração de URLs
     AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.us-east-2.amazonaws.com'
 
-    # Static files storage
+    # Configuração de armazenamento para arquivos estáticos
     STATICFILES_STORAGE = 'storages.backends.s3.S3Storage'
     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/static/'
 
-    # Media files storage
+    # Configuração de armazenamento para arquivos de mídia
     DEFAULT_FILE_STORAGE = 'storages.backends.s3.S3Storage'
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/media/'
 
-    # S3 Object parameters
+    # Parâmetros adicionais para S3
     AWS_S3_OBJECT_PARAMETERS = {'CacheControl': 'max-age=86400'}
     AWS_PRELOAD_METADATA = True
     AWS_AUTO_CREATE_BUCKET = False
     AWS_QUERYSTRING_AUTH = False
 
-    # Set public access control for assets
+    # Define o controle de acesso público para os arquivos
     AWS_DEFAULT_ACL = 'public-read'
+
+# --------------------------------------------------------------------------------------------------------
+# Fim das configurações de arquivos estáticos e de mídia
+# --------------------------------------------------------------------------------------------------------
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
