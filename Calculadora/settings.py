@@ -1,8 +1,3 @@
-Para facilitar, aqui está o arquivo settings.py completo com as alterações que discutimos. A configuração de arquivos estáticos e de mídia foi ajustada para funcionar corretamente em ambientes de desenvolvimento e produção, eliminando os conflitos que estavam causando o problema.
-
-Arquivo settings.py Completo e Corrigido
-Python
-
 """
 Django settings for Calculadora project.
 
