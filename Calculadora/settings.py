@@ -188,7 +188,7 @@ if not DEBUG:
     ###MEDIA_URL = f'//s3.amazonaws.com/{AWS_STORAGE_BUCKET_NAME}/{DEFAULT_S3_PATH}/'
 
     ###INSTALLED_APPS.append('s3_folder_storage')
-    INSTALLED_APPS.append('storages')
+    ###INSTALLED_APPS.append('storages')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
