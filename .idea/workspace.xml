@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Configuração s3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Configuração s3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,30 +153,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755268054746</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Instalação do Django">
-      <option name="closed" value="true" />
-      <created>1755393924416</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1755393924416</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Ajuste CircleCI">
-      <option name="closed" value="true" />
-      <created>1755394265231</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1755394265231</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Instalação Django">
-      <option name="closed" value="true" />
-      <created>1755395519909</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1755395519909</updated>
     </task>
     <task id="LOCAL-00040" summary="Configuração Django">
       <option name="closed" value="true" />
@@ -548,7 +522,31 @@
       <option name="project" value="LOCAL" />
       <updated>1756040303754</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Configuração s3">
+      <option name="closed" value="true" />
+      <created>1756041139030</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1756041139030</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Configuração s3">
+      <option name="closed" value="true" />
+      <created>1756041164997</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1756041164997</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Configuração s3">
+      <option name="closed" value="true" />
+      <created>1756041192168</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1756041192168</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
