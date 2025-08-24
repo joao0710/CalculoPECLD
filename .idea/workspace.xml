@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Configuração s3" />
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Configuração s3">
+      <change beforePath="$PROJECT_DIR$/Calculadora/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,14 +155,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755268054746</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Ajustes pipenv">
-      <option name="closed" value="true" />
-      <created>1755392777844</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1755392777844</updated>
     </task>
     <task id="LOCAL-00035" summary="Ajustes pipenv">
       <option name="closed" value="true" />
@@ -546,7 +540,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756038943125</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Configuração s3">
+      <option name="closed" value="true" />
+      <created>1756039199098</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1756039199098</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
