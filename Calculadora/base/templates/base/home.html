@@ -1,17 +1,37 @@
 <!DOCTYPE html>
-    <html lang="pt-bt">
-        <head>
-            <title>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial da Aplicação</title>
+    <link rel="stylesheet" href="../../static/style.css">
+    <script src="../../static/script.js"></script>
+</head>
+<body>
 
+    <header class="menu-bar">
+        <nav>
+            <button class="menu-btn active" onclick="showPage('inicio')">Início</button>
+            <button class="menu-btn" onclick="showPage('calculos')">Cálculos</button>
+            <button class="menu-btn" onclick="showPage('simulacao')">Simulação</button>
+            <button id="logout-btn" onclick="logout()">Logout</button>
+        </nav>
+    </header>
 
-            </title>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link href="css/style.css" rel="stylesheet">
+    <main class="content">
+        <div id="inicio" class="page active">
+            <h1>Bem-vindo à Página Inicial!</h1>
+            <p>Use a barra de navegação para explorar as outras seções da aplicação.</p>
+        </div>
+        <div id="calculos" class="page">
+            <h1>Página de Cálculos</h1>
+            <p>Aqui você pode realizar todos os seus cálculos.</p>
+        </div>
+        <div id="simulacao" class="page">
+            <h1>Página de Simulação</h1>
+            <p>Visualize diferentes cenários e resultados.</p>
+        </div>
+    </main>
 
-        </head>
-        <body>
-            TESTE
-        </body>
-
+</body>
 </html>

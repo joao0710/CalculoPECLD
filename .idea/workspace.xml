@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Configurações de arquivos estáticos" />
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Configurações de arquivos estáticos">
+      <change afterPath="$PROJECT_DIR$/Calculadora/base/static/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculadora/base/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/base/templates/base/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/base/templates/base/home.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,19 +68,23 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Victor/PycharmProjects/CalculoPECLD",
+    "last_opened_file_path": "C:/Users/Victor/PycharmProjects/CalculoPECLD/Calculadora/base",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Victor\PycharmProjects\CalculoPECLD\Calculadora\base" />
+      <recent name="C:\Users\Victor\PycharmProjects\CalculoPECLD\Calculadora\base\static" />
       <recent name="C:\Users\Victor\PycharmProjects\CalculoPECLD" />
       <recent name="C:\Users\Victor\PycharmProjects\CalculoPECLD\.venv" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Victor\PycharmProjects\CalculoPECLD\Calculadora\base\templates\base" />
+      <recent name="C:\Users\Victor\PycharmProjects\CalculoPECLD\Calculadora\base\static" />
+      <recent name="C:\Users\Victor\PycharmProjects\CalculoPECLD\Calculadora\base" />
+      <recent name="C:\Users\Victor\PycharmProjects\CalculoPECLD\staticfiles" />
       <recent name="C:\Users\Victor\PycharmProjects\CalculoPECLD\CalculoPECLD" />
-      <recent name="C:\Users\Victor\PycharmProjects\CalculoPECLD\images" />
     </key>
   </component>
   <component name="RunManager" selected="Python.settings">
@@ -153,14 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755268054746</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Criada App base">
-      <option name="closed" value="true" />
-      <created>1755440362167</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1755440362167</updated>
     </task>
     <task id="LOCAL-00044" summary="Criada App base">
       <option name="closed" value="true" />
@@ -546,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756042150250</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Configurações de arquivos estáticos">
+      <option name="closed" value="true" />
+      <created>1756042682508</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1756042682508</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
