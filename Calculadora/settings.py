@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Calculadora.base',
+    'debug_toolbar',
 ]
 
 MIDDLEWARE = [
@@ -134,7 +135,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, '/staticfiles')
 
 #configuração de upload de media:
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
+MEDIA_ROOT = os.path.join(BASE_DIR, '/mediafiles')
 
 #colectfast
 
@@ -146,9 +147,21 @@ AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
 #________________________________________________________________________
 
 if not DEBUG:
-    AWS_S3_REGION_NAME = 'us-east-2'
+    INSTALLED_APPS += ('django-storages',)
+
     AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY')
     AWS_STORAGE_BUCKET_NAME = config('AWS_STORAGE_BUCKET_NAME')
+    AWS_S3_REGION_NAME = 'us-east-2'
+
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.us-east-2.amazonaws.com'
+
+    # Static files storage
+    STATICFILES_STORAGE = 'storages.backends.s3.S3Storage'
+    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/static/'
+
+    # Media files storage
+    DEFAULT_FILE_STORAGE = 'storages.backends.s3.S3Storage'
+    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/media/'
 
     AWS_S3_OBJECT_PARAMETERS = {'CacheControl': 'max-age=86400'}
     AWS_PRELOAD_METADATA = True
@@ -161,20 +174,20 @@ if not DEBUG:
     #Statis Assets
     #_____________________________________________________________________
 
-    STATICFILES_STORAGE = 's3_folder_storage.StaticStorage'
-    STATIC_S3_PATH = 'static'
-    STATIC_ROOT = f'{STATIC_S3_PATH}/'
-    STATIC_URL = f'//s3.amazonaws.com/{AWS_STORAGE_BUCKET_NAME}/{STATIC_S3_PATH}/'
+    ###STATICFILES_STORAGE = 's3_folder_storage.StaticStorage'
+    ###STATIC_S3_PATH = 'static'
+    ###STATIC_ROOT = f'{STATIC_S3_PATH}/'
+    ###STATIC_URL = f'//s3.amazonaws.com/{AWS_STORAGE_BUCKET_NAME}/{STATIC_S3_PATH}/'
     ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
 
     #Upload media folder
     #--------------------------------------------------------------------
-    DEFAULT_FILE_STORAGE = 's3_folder_storage.s3.DefaultStorage'
-    DEFAULT_S3_PATH = 'media'
-    MEDIA_ROOT = f'/{DEFAULT_S3_PATH}/'
-    MEDIA_URL = f'//s3.amazonaws.com/{AWS_STORAGE_BUCKET_NAME}/{DEFAULT_S3_PATH}/'
+    ###DEFAULT_FILE_STORAGE = 's3_folder_storage.s3.DefaultStorage'
+    ###DEFAULT_S3_PATH = 'media'
+    ###MEDIA_ROOT = f'/{DEFAULT_S3_PATH}/'
+    ###MEDIA_URL = f'//s3.amazonaws.com/{AWS_STORAGE_BUCKET_NAME}/{DEFAULT_S3_PATH}/'
 
-    INSTALLED_APPS.append('s3_folder_storage')
+    ###INSTALLED_APPS.append('s3_folder_storage')
     INSTALLED_APPS.append('storages')
 
 # Default primary key field type

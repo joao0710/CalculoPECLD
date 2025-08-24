@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Configuration Django Debub Tollbar" />
+    <list default="true" id="62500bcb-4266-4610-90d6-cad7e3fedd31" name="Changes" comment="Configuration Django Debub Tollbar">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,38 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755268054746</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Alteração configuração CircleCI">
-      <option name="closed" value="true" />
-      <created>1755364705475</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1755364705475</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Alteração configuração CircleCI">
-      <option name="closed" value="true" />
-      <created>1755369186734</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1755369186734</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Instalação Pipenv">
-      <option name="closed" value="true" />
-      <created>1755370213471</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1755370213471</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Instalação Pipenv">
-      <option name="closed" value="true" />
-      <created>1755373844072</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1755373844072</updated>
     </task>
     <task id="LOCAL-00032" summary="Alterado gestor de dependencias para pipenv">
       <option name="closed" value="true" />
@@ -546,7 +517,39 @@
       <option name="project" value="LOCAL" />
       <updated>1755989364693</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Configuration Django Debub Tollbar">
+      <option name="closed" value="true" />
+      <created>1755989580756</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1755989580756</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Configuration Django Debub Tollbar">
+      <option name="closed" value="true" />
+      <created>1755989694451</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1755989694451</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Configuration Django Debub Tollbar">
+      <option name="closed" value="true" />
+      <created>1755989837644</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1755989837644</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Configuration Django Debub Tollbar">
+      <option name="closed" value="true" />
+      <created>1755989953329</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1755989953329</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
