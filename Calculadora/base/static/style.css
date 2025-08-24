@@ -1,9 +1,8 @@
-/* Estilos Globais */
 :root {
-    --primary-color: #3b82f6; /* Azul */
-    --background-color: #1f2937; /* Cinza Escuro */
-    --card-color: #374151;      /* Cinza um pouco mais claro */
-    --text-color: #f3f4f6;      /* Branco Sujo */
+    --primary-color: #3b82f6;
+    --background-color: #1f2937;
+    --card-color: #374151;
+    --text-color: #f3f4f6;
     --border-radius: 8px;
 }
 
@@ -12,16 +11,15 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     margin: 0;
-    /* Adiciona um espaçamento no topo do corpo para a barra de menu fixa */
-    padding-top: 60px; /* Ajuste este valor se a altura da barra mudar */
+
+    padding-top: 60px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-/* Barra de Menu */
+
 .menu-bar {
-    /* Posicionamento fixo no topo da página */
     position: fixed;
     top: 0;
     left: 0;
@@ -30,7 +28,7 @@ body {
     background-color: var(--card-color);
     padding: 10px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    z-index: 1000; /* Garante que a barra fique acima de outros elementos */
+    z-index: 1000;
 }
 
 .menu-bar nav {
@@ -55,15 +53,14 @@ body {
 }
 
 #logout-btn {
-    margin-left: auto; /* Empurra o botão para a direita */
-    background-color: #dc2626; /* Cor de destaque para o Logout */
+    margin-left: auto;
+    background-color: #dc2626;
 }
 
 #logout-btn:hover {
     background-color: #b91c1c;
 }
 
-/* Conteúdo Principal e Páginas */
 .content {
     flex-grow: 1;
     padding: 20px;
