@@ -83,44 +83,11 @@ USE_TZ = True
 # Configuração de arquivos estáticos e de mídia
 # --------------------------------------------------------------------------------------------------------
 
-# STATIC_ROOT deve ser definido para que o collectstatic saiba onde coletar os arquivos.
-# Ele será usado pelo Heroku como o caminho de destino temporário antes de enviar para o S3.
+# Configuração para servir arquivos estáticos e de mídia localmente
+STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
-
-if DEBUG:
-    # Configuração para ambiente de desenvolvimento local
-    STATIC_URL = 'static/'
-    MEDIA_URL = '/media/'
-    MEDIA_ROOT = BASE_DIR / 'mediafiles'
-else:
-    # Configuração para ambiente de produção com AWS S3
-    INSTALLED_APPS.append('storages')
-
-    # Credenciais AWS S3
-    AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
-    AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY')
-    AWS_STORAGE_BUCKET_NAME = config('AWS_STORAGE_BUCKET_NAME')
-    AWS_S3_REGION_NAME = 'us-east-2'
-
-    # S3 custom domain e geração de URLs
-    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.us-east-2.amazonaws.com'
-
-    # Configuração de armazenamento para arquivos estáticos
-    STATICFILES_STORAGE = 'storages.backends.s3.S3Storage'
-    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/static/'
-
-    # Configuração de armazenamento para arquivos de mídia
-    DEFAULT_FILE_STORAGE = 'storages.backends.s3.S3Storage'
-    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/media/'
-
-    # Parâmetros adicionais para S3
-    AWS_S3_OBJECT_PARAMETERS = {'CacheControl': 'max-age=86400'}
-    AWS_PRELOAD_METADATA = True
-    AWS_AUTO_CREATE_BUCKET = False
-    AWS_QUERYSTRING_AUTH = False
-
-    # Define o controle de acesso público para os arquivos
-    AWS_DEFAULT_ACL = 'public-read'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'mediafiles'
 
 # --------------------------------------------------------------------------------------------------------
 # Fim das configurações de arquivos estáticos e de mídia
