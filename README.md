@@ -47,59 +47,6 @@ Certifique-se de que os seguintes softwares estão instalados na sua máquina:
 * PostgreSQL
 * Redis (necessário para o Celery)
 
-### Configuração do Projeto
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone [https://github.com/seu-usuario/seu-projeto.git](https://github.com/seu-usuario/seu-projeto.git)
-    cd seu-projeto
-    ```
-
-2.  **Crie e ative o ambiente virtual:**
-    ```bash
-    virtualenv venv
-    source venv/bin/activate  # No Windows: venv\Scripts\activate
-    ```
-
-3.  **Instale as dependências:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4.  **Configure o banco de dados:**
-    Edite o arquivo `settings.py` para incluir as credenciais do seu banco de dados PostgreSQL.
-
-5.  **Aplique as migrações:**
-    ```bash
-    python manage.py makemigrations
-    python manage.py migrate
-    ```
-
-6.  **Inicie os serviços:**
-    ```bash
-    # Inicie o servidor web
-    python manage.py runserver
-
-    # Em uma nova janela de terminal, inicie o worker do Celery
-    celery -A seu_projeto_base worker --loglevel=info
-    ```
-
-## Uso
-
-* Acesse a interface administrativa do Django em `http://127.0.0.1:8000/admin` para gerenciar os modelos.
-* Utilize o `management command` para importar dados da sua carteira de crédito:
-    ```bash
-    python manage.py importar_carteira --file=caminho/para/seus/dados.csv
-    ```
-
-## Estrutura do Projeto
-
-* `app_core/`: Lógica central do projeto.
-* `app_reports/`: Módulo para relatórios e visualizações.
-* `app_data_ingestion/`: Módulo para importação de dados.
-* `requirements.txt`: Lista de dependências do Python.
-* `manage.py`: Utilitário para gerenciamento do projeto.
-
 ## Contribuição
 
 Contribuições são muito bem-vindas. Para contribuir, siga o padrão de `fork`, `branch`, `commit` e `pull request`.
